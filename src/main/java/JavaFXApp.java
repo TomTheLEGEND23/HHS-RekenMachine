@@ -37,9 +37,7 @@ public class JavaFXApp extends Application {
         return 0;
     }
 
-    protected int computeDivide (int number1, int number2) {
-        return 0;
-    }
+    protected int computeDivide (int number1, int number2) { return number1 / number2;}
 
     private void compute (String operator) {
 
